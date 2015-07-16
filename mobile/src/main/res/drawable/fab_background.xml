@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--TODO: Team Color-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="true">
+        <ripple android:color="@color/vanderbiltRipple">
+            <item>
+                <shape>
+                    <solid android:color="@color/vanderbiltGold" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+
+    <item>
+        <ripple android:color="@color/vanderbiltRipple">
+            <item>
+                <shape>
+                    <solid android:color="@color/vanderbiltGold" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+
+</selector>

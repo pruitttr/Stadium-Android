@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.stadiumse.stadiumstockexchange.DashboardFragment">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="144dp"
+        android:id="@+id/swipeview_assets" >
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="android.support.v7.widget.RecyclerView"
+            android:background="#ffd2d2d2"
+            android:orientation="vertical"
+            android:id="@+id/container_assets" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

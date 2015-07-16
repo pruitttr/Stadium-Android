@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd2d2d2"
+    tools:context="com.stadiumse.stadiumstockexchange.StockDetailActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#000"
+            android:id="@+id/imageview_team_picture"
+            android:transitionName="teamPicture"
+            android:cropToPadding="false"
+            android:adjustViewBounds="true"
+            android:elevation="4dp"
+            android:scaleType="centerCrop"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <com.stadiumse.stadiumstockexchange.LineChart.LineChartView
+            android:id="@+id/linechart_price_graph"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="200dp"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/toolbar_stock_detail" />
+
+
+</FrameLayout>

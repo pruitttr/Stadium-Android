@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="red300" type="color">#E57373</item> 
+    <item name="red500" type="color">#F44336</item> 
+    <item name="red700" type="color">#D32F2F</item>  
+
+    <item name="pink300" type="color">#F06292</item> 
+    <item name="pink500" type="color">#E91E63</item> 
+    <item name="pink700" type="color">#C2185B</item>  
+
+    <item name="purple300" type="color">#BA68C8</item> 
+    <item name="purple500" type="color">#9C27B0</item> 
+    <item name="purple700" type="color">#7B1FA2</item>  
+
+    <item name="deepPurple300" type="color">#9575CD</item> 
+    <item name="deepPurple500" type="color">#673AB7</item> 
+    <item name="deepPurple700" type="color">#512DA8</item>  
+
+    <item name="indigo300" type="color">#7986CB</item> 
+    <item name="indigo500" type="color">#3F51B5</item> 
+    <item name="indigo700" type="color">#303F9F</item>  
+
+    <item name="blueGrey300" type="color">#90A4AE</item> 
+    <item name="blueGrey500" type="color">#607D8B</item> 
+    <item name="blueGrey700" type="color">#455A64</item>  
+
+    <item name="grey500" type="color">#9E9E9E</item> 
+    <item name="grey700" type="color">#616161</item> 
+    <item name="grey900" type="color">#212121</item>  
+
+    <item name="vanderbiltGold" type="color">#ffd8ac4d</item>  
+    <item name="vanderbiltRipple" type="color">#ffffcb5b</item>  
+
+    <item name="green700" type="color">#689F38</item>
+
+</resources>

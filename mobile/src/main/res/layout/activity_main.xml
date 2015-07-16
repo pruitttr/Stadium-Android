@@ -1,0 +1,118 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/container_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/layout_toolbar_info"
+        android:elevation="5dp">
+
+        <TextView
+            android:id="@+id/textview_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/portfolio_name"
+            android:layout_above="@+id/textview_toolbar_current_value"
+            android:layout_alignEnd="@+id/textview_toolbar_current_value"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_toolbar_current_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/placeholder_current_value"
+            android:textSize="24sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_toolbar_league_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_league_name"
+            android:layout_below="@+id/textview_toolbar_current_value"
+            android:layout_alignEnd="@+id/textview_toolbar_current_value"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <com.stadiumse.stadiumstockexchange.RoundedImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:id="@+id/imageview_toolbar_userpic"
+            android:src="@drawable/avatar"
+            android:padding="4dp"
+            android:layout_above="@+id/textview_toolbar_username"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="32dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_user_name"
+            android:id="@+id/textview_toolbar_username"
+            android:textSize="15sp"
+            android:layout_below="@+id/textview_toolbar_current_value"
+            android:layout_alignParentStart="false"
+            android:layout_marginTop="10dp"
+            android:layout_toStartOf="@+id/textview_toolbar_current_value"
+            android:layout_alignStart="@id/imageview_toolbar_userpic"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/placeholder_league_rank"
+            android:id="@+id/textview_toolbar_league_info"
+            android:textSize="15sp"
+            android:layout_below="@+id/textview_toolbar_username"
+            android:layout_alignParentStart="false"
+            android:layout_alignStart="@id/imageview_toolbar_userpic"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container_content"
+        android:background="@color/grey900"
+        android:layout_marginTop="56dp">
+
+    </FrameLayout>
+
+    <include layout="@layout/toolbar_dashboard" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="@dimen/fab_resting"
+        android:layout_marginTop="56dp">
+
+        <ImageButton
+            android:id="@+id/fab_stocks_top"
+            android:contentDescription="@string/description_fab"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="112dp"
+            android:elevation="@dimen/fab_resting"
+            android:background="@drawable/fab_background"
+            android:layout_gravity="end|top"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/fab_icons"
+            android:stateListAnimator="@anim/button_elevation"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:padding="10dp">
+        </ImageButton>
+
+    </FrameLayout>
+
+</FrameLayout>

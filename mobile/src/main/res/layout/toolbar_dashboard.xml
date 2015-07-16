@@ -1,0 +1,11 @@
+<!--TODO: Team Color-->
+<Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar_dashboard"
+    android:layout_height="200dp"
+    android:layout_width="match_parent"
+    android:minHeight="56dp"
+    android:maxHeight="200dp"
+    android:elevation="4dp"
+    android:background="@color/grey900" >
+</Toolbar>

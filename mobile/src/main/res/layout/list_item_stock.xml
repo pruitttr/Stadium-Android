@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="?android:attr/listPreferredItemHeight">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView android:id="@+id/textview_stock_ticker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VU"
+                android:textColor="#000"
+                android:gravity="center_vertical"
+                android:textSize="24sp"
+                android:paddingLeft="16dp"
+                android:textStyle="bold"
+                android:paddingRight="16dp" />
+
+            <TextView android:id="@+id/textview_stock_record"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(3 - 10)"
+                android:textColor="#000"
+                android:gravity="center_vertical|right"
+                android:textSize="14sp"
+                android:paddingRight="48dp" />
+        </LinearLayout>
+
+        <TextView android:id="@+id/textview_stock_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vanderbilt University"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_weight="1">
+
+        <TextView android:id="@+id/textview_stock_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$68.31"
+            android:textColor="#000"
+            android:paddingRight="16dp"
+            android:gravity="center_vertical|right"
+            android:textSize="20sp" />
+
+        <TextView android:id="@+id/textview_stock_dailychange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.49%"
+            android:textColor="#000"
+            android:paddingRight="16dp"
+            android:gravity="center_vertical|right"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textview_stock_id"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>

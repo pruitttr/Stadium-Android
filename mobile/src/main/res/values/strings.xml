@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Stadium Stock Exchange</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_stock_detail">StockDetailActivity</string>
+
+    <string name="portfolio_name">NCAA Football 2015 Portfolio</string>
+    <string name="placeholder_league_name">Boney Fuller</string>
+    <string name="placeholder_league_rank">League: #2 | VU: #9 of 74</string>
+    <string name="placeholder_user_name">Taylor Pruitt</string>
+    <string name="placeholder_current_value">$1,265,658.34</string>
+    <string name="description_fab">Floating Action Button</string>
+
+
+</resources>
